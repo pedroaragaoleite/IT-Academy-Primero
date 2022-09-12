@@ -76,6 +76,7 @@ body {
     padding: 20px;
     display: flex;
     gap: 20px;
+    margin-bottom: 20px;
 }
 /* ---- ARTICLE ---- */
 .article {
@@ -120,4 +121,16 @@ body {
    background-color: #FEEA85 ;
    height: 20px;
    width: 100%;  
+}
+
+/* -------------------- FOOTER ------------*/
+
+#footer {
+    background-color: #000000;
+    padding: 20px;
+}
+
+.footer_text {
+    background-color: #E6AF2E;
+    height: 20px;
 }
