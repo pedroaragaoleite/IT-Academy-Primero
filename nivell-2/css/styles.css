@@ -3,12 +3,13 @@
     margin: 0;
     -webkit-box-sizing: border-box; 
     -moz-box-sizing: border-box;    
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
 img {
     max-width: 100%;
 }
+
 
 ul {
     list-style: none;
@@ -60,6 +61,10 @@ body {
 
 .nav_link a i {
     margin-right: 5px;
+}
+
+.nav_link a:hover, .nav_social-link a:hover {
+    color: #F08080;
 }
 
 .nav_social-links  {
@@ -190,7 +195,11 @@ body {
 
 .article_image {
     position: relative;
+    overflow: hidden;
 }
+/* .article_image img:hover {
+    opacity: .7;    
+} */
 
 .article_date {
     position: absolute;
@@ -201,6 +210,9 @@ body {
 
 .article_text {
     overflow: hidden;
+}
+.article_text a:hover {
+    color: #F08080;
 }
 
 .article_title {
