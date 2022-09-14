@@ -51,13 +51,14 @@ body {
 }
 
 .nav_links {
-    display: flex;   
+    display: flex; 
+    justify-content: space-around;
+    width: 100%;  
 }
 
-.nav_link:not(:last-child) {
-    margin-right: 80px;
+.nav_links a {
+    font-size: 14px;
 }
-
 
 .nav_link a i {
     margin-right: 5px;
@@ -117,12 +118,11 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-    .nav_link:not(:last-child) {
-        margin-right: 40px;
-    }
-
     .nav_link a {
-        font-size: 14px;
+        font-size: 12px;
+    }
+    .nav_showcase-title h1 {
+        font-size: 24px;
     }
 }
 
@@ -146,10 +146,6 @@ body {
 
     .nav_link a {
         font-size: 12px;
-    }
-
-    .nav_link:not(:last-child) {
-        margin-right: 20px;
     }
 
     .nav_social {
